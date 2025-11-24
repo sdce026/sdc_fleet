@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Fuel Consumption Analysis",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": "FCA-.#####"
+}

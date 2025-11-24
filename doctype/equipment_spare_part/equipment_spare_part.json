@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Equipment Spare Part",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": ""
+}

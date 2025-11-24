@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Fuel Approval Log",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": "FAPP-.#####"
+}

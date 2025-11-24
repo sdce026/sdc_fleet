@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Maintenance Cycle Record",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": "MCR-.#####"
+}

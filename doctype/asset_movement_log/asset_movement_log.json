@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Asset Movement Log",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": "MOVE-.#####"
+}

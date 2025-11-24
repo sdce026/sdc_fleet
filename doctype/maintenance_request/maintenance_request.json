@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Maintenance Request",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": "MR-.#####"
+}

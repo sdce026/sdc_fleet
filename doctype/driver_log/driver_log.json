@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Driver Log",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": "DRV-.#####"
+}

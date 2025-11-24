@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Equipment Dashboard",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": ""
+}

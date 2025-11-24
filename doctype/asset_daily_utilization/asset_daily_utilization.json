@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Asset Daily Utilization",
+  "module": "SDC Fleet",
+  "custom": 0,
+  "fields": [],
+  "autoname": "ADU-.#####"
+}
