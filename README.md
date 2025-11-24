@@ -1,160 +1,96 @@
-# SDC Fleet App
-Arabic + English Fleet Management System
-# 🚚 SDC Fleet – Smart Diesel & Maintenance Management for ERPNext  
-**Premium Fleet Management Module for ERPNext v15 — by SDCE**
+<div align="center">
 
-SDC Fleet هو تطبيق احترافي متكامل لإدارة المعدات والمولدات والديزل داخل ERPNext،  
-يدعم مراقبة استهلاك الوقود، ساعات التشغيل، الصيانة الدورية 300 ساعة، المخزون، التنبيهات،  
-وداشبورد احترافي (Dashboard Pro) يوفر رؤية كاملة لحالة الأسطول.
+<img src="Picture1.png" alt="SDC Logo" width="360">
 
----
+<h1>🚀 SDC Fleet Management System</h1>
 
-## 🚀 Features  
-### ✔ إدارة الوقود Fueling Log  
-- تسجيل تعبئة الديزل  
-- احتساب ساعات التشغيل يوميًا  
-- احتساب معدل الاستهلاك (لتر/ساعة)  
-- تحديث عداد الساعات (Previous → Current)  
-- دعم السائق / الأوبريتور  
-- رسوم النقل
+<h3>Professional Fleet, Fuel & Maintenance Management Module for ERPNext V15</h3>
+
+<p>
+  <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/ERPNext-V15-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Production-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge">
+</p>
+
+</div>
+
 
 ---
 
-### ✔ الصيانة الدورية 300 ساعة  
-- إنشاء Maintenance Request تلقائيًا  
-- احتساب الساعات منذ آخر صيانة  
-- قائمة قطع الغيار المطلوبة  
-- إشعار عند تجاوز 250 / 300 ساعة  
-- بدء دورة جديدة بعد الصيانة (Reset Logic)
+## 📌 Overview (نبذة مختصرة)
+
+**SDC Fleet Management** هو نظام متكامل لإدارة:
+
+- 🚛 **معدات المؤسسة**
+- 🛠️ **الصيانة الدورية والطارئة**
+- ⛽ **تعبئة الديزل وتحليل الاستهلاك**
+- 👷 **السائقين**
+- 📊 **لوحات تحكم احترافية (Standard + PRO Dashboard)**
+
+تم تصميم النظام خصيصًا لمؤسسة **شمس دبي للمقاولات** ليعمل داخل ERPNext V15 بشكل كامل دون أي تعديل على النظام الأساسي.
 
 ---
 
-### ✔ Dashboard Pro  
-- KPI Cards  
+## 🔥 Key Features — أهم المميزات
+
+### 🔧 الصيانة
+- إنشاء طلب صيانة **Maintenance Request**
+- سجل صيانة متكامل **Maintenance Log**
+- إدارة دورات الصيانة **Maintenance Cycle**
+- تنبيهات حسب عدد الساعات (250 / 300 / إلخ)
+
+### ⛽ إدارة الوقود
+- سجلات تعبئة fuel log  
+- حساب **استهلاك الوقود (لتر/ساعة)** تلقائيًا  
+- تحليل بيانات الوقود في Dashboard متقدم
+
+### 🚚 إدارة المعدات
+- ملف تعريفي لكل معدّة + صور  
+- سجل حركة المعدات  
+- متابعة ساعات التشغيل
+
+### 📊 لوحات تحكم (Dashboard)
+**Standard Dashboard + Dashboard PRO (مخصص للشركة)**
+
+مع رسوم بيانية جاهزة:
+
 - Fuel Analytics  
-- Hour Meter Analytics  
-- Maintenance Status  
-- Alerts  
-- Asset Profiling  
+- KPIs  
+- Maintenance cycle  
+- Utilization chart  
+- Equipment profile  
 
 ---
 
-### ✔ تقارير احترافية  
-- تحليل استهلاك الوقود  
-- مراجعة دورات الصيانة  
-- تحليل تشغيل المعدات  
-- حركة الأصول (Asset Movement)  
-- أداء السائقين Driver Log  
+## 🖼️ Screenshots (صور من النظام)
+
+<div align="center">
+
+### 🔹 **Fueling Analytics Dashboard**
+<img src="assets/screenshots/A_digital_dashboard_image_titled_\"Fueling_Analytic.png" width="700">
 
 ---
 
-# 📦 Installation
-
-### 1️⃣ Install from GitHub  
-```
-bench get-app sdc_fleet https://github.com/sdce026/sdc_fleet.git
-bench --site yoursite install-app sdc_fleet
-```
-
-### 2️⃣ Required  
-- ERPNext v15  
-- Frappe Framework v15  
+### 🔹 **Equipment Profile**
+<img src="assets/screenshots/A_2D_digital_design_mockup_showcases_an_equipment_.png" width="700">
 
 ---
 
-# 📁 Included DocTypes  
-- Fueling Log  
-- Maintenance Log  
-- Maintenance Request  
-- Maintenance Cycle Record  
-- Equipment Maintenance Settings  
-- Equipment Spare Part  
-- Fuel Consumption Analysis  
-- Driver Log  
-- Asset Movement Log  
-- Asset Daily Utilization  
-- Dashboard Pro (Page)
+### 🔹 **Maintenance Cycle Timeline**
+<img src="assets/screenshots/A_2D_digital_graphic_timeline_in_the_SDCE_Premium_.png" width="700">
 
 ---
 
-# 🖼 Screenshots
+### 🔹 **Fleet Dashboard PRO**
+<img src="public/images/screenshots/dashboard_pro.png" width="700">
 
-### **Dashboard Pro**
-![Dashboard Pro](assets/screenshots/dashboard_pro.png)
-
-### **Fueling Log**
-![Fueling Log](assets/screenshots/fueling_log.png)
-
-### **Maintenance Request (300h Cycle)**
-![Maintenance Request](assets/screenshots/maintenance_request.png)
-
-### **Equipment Profile**
-![Equipment Profile](assets/screenshots/equipment_profile.png)
-
-### **Fleet KPIs**
-![Fleet KPIs](assets/screenshots/fleet_kpis.png)
-
-### **Fuel Analytics Dashboard**
-![Fuel Analytics](assets/screenshots/fuel_analytics.png)
-
-### **Maintenance Cycle Timeline**
-![Maintenance Cycle Timeline](assets/screenshots/maintenance_cycle.png)
+</div>
 
 ---
 
-# 🛠 Automation & Logic
+## 🏗️ Installation (تثبيت التطبيق)
 
-### 🔧 Fueling Log  
-- Updates previous_hour → current_hour automatically  
-- Computes hours_run = current - previous  
-- Triggers alerts on abnormal usage  
-- Sends data to Dashboard Pro
-
-### 🔧 Maintenance Engine  
-- Tracks last maintenance reading  
-- Computes hours_since_last  
-- Creates automatic Maintenance Request @ 300h  
-- Resets cycle upon completion  
-
-### 🔧 Dashboard Pro Integration  
-- Real-time KPIs  
-- Fuel trend analysis  
-- Automatic equipment ranking  
-- Smart alerts
-
----
-
-# 📚 Documentation  
-Full documentation is available in the GitHub **Wiki**:  
-👉 https://github.com/sdce026/sdc_fleet/wiki
-
----
-
-# 🧩 GitHub Marketplace Metadata  
-- Name: **SDC Fleet Manager**  
-- Category: ERPNext Modules  
-- Status: Production Ready  
-- License: MIT  
-- Author: **SDCE Engineering**  
-
----
-
-# 🏷 Badges
-
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![ERPNext](https://img.shields.io/badge/ERPNext-v15-blue)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Docs](https://img.shields.io/badge/docs-Wiki-blue)
-
----
-
-# 📞 Support & Contact  
-For custom development or support:  
-📧 **contact@sdc-engineering.com**  
-💼 SDCE — Smart Digital Construction Engineering
-
----
-
-# 📝 License  
-MIT License — Free for commercial and personal use.
+### 1️⃣ داخل مجلد الـ bench  
+```bash
+cd ~/frappe-bench
