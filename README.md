@@ -1,186 +1,160 @@
 # SDC Fleet App
 Arabic + English Fleet Management System
-SDC Fleet Management System
-Complete Fleet, Fueling & Maintenance Management Module for ERPNext
+# 🚚 SDC Fleet – Smart Diesel & Maintenance Management for ERPNext  
+**Premium Fleet Management Module for ERPNext v15 — by SDCE**
 
-SDC Fleet هو نظام متكامل يُضيف قدرات احترافية لإدارة أسطول المعدات والمولدات داخل ERPNext v15+
-مع تحليل فوري للوقود، والصيانة، وساعات التشغيل، وتتبّع المعدات…
-كل ذلك من خلال واجهة بسيطة وسريعة ومرنة.
+SDC Fleet هو تطبيق احترافي متكامل لإدارة المعدات والمولدات والديزل داخل ERPNext،  
+يدعم مراقبة استهلاك الوقود، ساعات التشغيل، الصيانة الدورية 300 ساعة، المخزون، التنبيهات،  
+وداشبورد احترافي (Dashboard Pro) يوفر رؤية كاملة لحالة الأسطول.
 
-<div align="center">
-🚜 إدارة أسطول – 🔧 صيانة – ⛽ وقود – 📊 تحليلات – 🛰 تتبع حركة — في نظام واحد
-Screenshots
-Dashboard	Fuel Analytics	Equipment Profile
+---
 
-	
-	
-</div>
-📌 المميزات الرئيسية
-1) إدارة الوقود Fueling Management
+## 🚀 Features  
+### ✔ إدارة الوقود Fueling Log  
+- تسجيل تعبئة الديزل  
+- احتساب ساعات التشغيل يوميًا  
+- احتساب معدل الاستهلاك (لتر/ساعة)  
+- تحديث عداد الساعات (Previous → Current)  
+- دعم السائق / الأوبريتور  
+- رسوم النقل
 
-تسجيل عمليات التعبئة تلقائيًا
+---
 
-حساب الاستهلاك الفعلي (لتر/ساعة)
+### ✔ الصيانة الدورية 300 ساعة  
+- إنشاء Maintenance Request تلقائيًا  
+- احتساب الساعات منذ آخر صيانة  
+- قائمة قطع الغيار المطلوبة  
+- إشعار عند تجاوز 250 / 300 ساعة  
+- بدء دورة جديدة بعد الصيانة (Reset Logic)
 
-مقارنة بين الاستهلاك الطبيعي والفعلي
+---
 
-إشعارات عند وجود استهلاك غير طبيعي
+### ✔ Dashboard Pro  
+- KPI Cards  
+- Fuel Analytics  
+- Hour Meter Analytics  
+- Maintenance Status  
+- Alerts  
+- Asset Profiling  
 
-Dashboard تحليلي كامل جاهز
+---
 
-2) الصيانة الذكية Smart Maintenance
+### ✔ تقارير احترافية  
+- تحليل استهلاك الوقود  
+- مراجعة دورات الصيانة  
+- تحليل تشغيل المعدات  
+- حركة الأصول (Asset Movement)  
+- أداء السائقين Driver Log  
 
-إنشاء خطط صيانة Preventive و Corrective
+---
 
-حساب ساعات التشغيل منذ آخر صيانة
+# 📦 Installation
 
-تنبيه تلقائي عند:
+### 1️⃣ Install from GitHub  
+```
+bench get-app sdc_fleet https://github.com/sdce026/sdc_fleet.git
+bench --site yoursite install-app sdc_fleet
+```
 
-250 ساعة ✔
+### 2️⃣ Required  
+- ERPNext v15  
+- Frappe Framework v15  
 
-300 ساعة ✔
+---
 
-500 ساعة ✔
+# 📁 Included DocTypes  
+- Fueling Log  
+- Maintenance Log  
+- Maintenance Request  
+- Maintenance Cycle Record  
+- Equipment Maintenance Settings  
+- Equipment Spare Part  
+- Fuel Consumption Analysis  
+- Driver Log  
+- Asset Movement Log  
+- Asset Daily Utilization  
+- Dashboard Pro (Page)
 
-أو أي قيمة تُحددها من الإعدادات
+---
 
-سجل كامل لقطع الغيار المطلوبة
+# 🖼 Screenshots
 
-3) تتبع حركة المعدات Asset Movement
+### **Dashboard Pro**
+![Dashboard Pro](assets/screenshots/dashboard_pro.png)
 
-تتبع مواقع المعدات
+### **Fueling Log**
+![Fueling Log](assets/screenshots/fueling_log.png)
 
-حساب ساعات التشغيل اليومية
+### **Maintenance Request (300h Cycle)**
+![Maintenance Request](assets/screenshots/maintenance_request.png)
 
-ربط الحركة بالتعبئة والصيانة
+### **Equipment Profile**
+![Equipment Profile](assets/screenshots/equipment_profile.png)
 
-4) لوحة تحكم متقدمة – Fleet Dashboard PRO
+### **Fleet KPIs**
+![Fleet KPIs](assets/screenshots/fleet_kpis.png)
 
-✔ KPIs
-✔ Fuel heat-map
-✔ صيانة قريبة
-✔ مؤشرات استهلاك غير طبيعي
-✔ أكثر المعدات صرفًا للديزل
-✔ أداء السائقين
+### **Fuel Analytics Dashboard**
+![Fuel Analytics](assets/screenshots/fuel_analytics.png)
 
-🧩 الموديولات والـ Doctypes الموجودة في النظام
-Fueling & Fuel Analytics
-Doctype	وصف
-Fueling Log	تسجيل كل عملية تعبئة
-Fuel Consumption Analysis	تحليل الاستهلاك – تلقائي
-Fuel Approval Log	نظام الموافقات للديزل
-Maintenance
-Doctype	وصف
-Maintenance Request	طلب صيانة من المواقع
-Maintenance Log	سجل الصيانة الكامل
-Maintenance Cycle Record	تتبّع السايكل (250/300/500 ساعة)
-Maintenance Required Item	قطع الغيار المطلوبة
-Equipment
-Doctype	وصف
-Equipment Maintenance Settings	إعدادات الصيانة لكل معدّة
-Equipment Spare Part	إدارة قطع الغيار
-Driver Log	سجل السائقين
-Asset Movement Log	حركة المعدات
-Equipment Dashboard	Dashboard خاص بكل معدّة
-⚙️ التركيب Installation
-1️⃣ تحميل التطبيق من GitHub
-cd ~/frappe-bench
-bench get-app https://github.com/sdce026/sdc_fleet.git
+### **Maintenance Cycle Timeline**
+![Maintenance Cycle Timeline](assets/screenshots/maintenance_cycle.png)
 
-2️⃣ تثبيت التطبيق على الموقع
-bench --site yoursite.com install-app sdc_fleet
-bench migrate
+---
 
-3️⃣ إعادة تشغيل الخدمات
-sudo supervisorctl restart all
-sudo systemctl restart nginx
+# 🛠 Automation & Logic
 
-🧱 هيكل المشروع Project Structure
-sdc_fleet/
-│
-├── api/
-│   ├── fueling.py
-│   ├── maintenance.py
-│   ├── dashboard.py
-│   └── dashboard_pro.py
-│
-├── doctype/
-│   ├── fueling_log/
-│   ├── maintenance_log/
-│   ├── maintenance_request/
-│   ├── equipment_maintenance_settings/
-│   ├── fuel_consumption_analysis/
-│   └── ...
-│
-├── page/
-│   └── fleet_dashboard_pro/
-│
-├── public/
-│   └── images/screenshots/
-│
-├── hooks.py
-├── setup.py
-├── pyproject.toml
-└── README.md
+### 🔧 Fueling Log  
+- Updates previous_hour → current_hour automatically  
+- Computes hours_run = current - previous  
+- Triggers alerts on abnormal usage  
+- Sends data to Dashboard Pro
 
-🔌 واجهة البرمجة API
-مثال: حساب استهلاك الوقود
-from sdc_fleet.api.fueling import calculate_consumption
+### 🔧 Maintenance Engine  
+- Tracks last maintenance reading  
+- Computes hours_since_last  
+- Creates automatic Maintenance Request @ 300h  
+- Resets cycle upon completion  
 
-result = calculate_consumption(asset_id="EXC-001", hours=5, liters=32)
+### 🔧 Dashboard Pro Integration  
+- Real-time KPIs  
+- Fuel trend analysis  
+- Automatic equipment ranking  
+- Smart alerts
 
-مثال: إنشاء طلب صيانة
-from sdc_fleet.api.maintenance import create_request
+---
 
-create_request(
-    asset="GEN-450",
-    issue="Oil pressure low",
-    priority="High"
-)
+# 📚 Documentation  
+Full documentation is available in the GitHub **Wiki**:  
+👉 https://github.com/sdce026/sdc_fleet/wiki
 
-📊 لوحة التحكم Fleet Dashboard PRO
+---
 
-Fuel Analytics
+# 🧩 GitHub Marketplace Metadata  
+- Name: **SDC Fleet Manager**  
+- Category: ERPNext Modules  
+- Status: Production Ready  
+- License: MIT  
+- Author: **SDCE Engineering**  
 
-Daily Utilization
+---
 
-Maintenance Cycle
+# 🏷 Badges
 
-Asset Cost
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![ERPNext](https://img.shields.io/badge/ERPNext-v15-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Docs](https://img.shields.io/badge/docs-Wiki-blue)
 
-Driver Performance
+---
 
-Exception Alerts (red flags)
+# 📞 Support & Contact  
+For custom development or support:  
+📧 **contact@sdc-engineering.com**  
+💼 SDCE — Smart Digital Construction Engineering
 
-مصممة لتعمل بسرعة وبدون ضغط على السيرفر.
+---
 
-🛠 Roadmap (القادم)
-
-🔄 Mobile app (Android)
-
-🛰 GPS Integration
-
-🧾 Advanced Fuel Billing
-
-📶 IOT sensors support
-
-🛑 Fuel Theft Detection
-
-⛽ Smart Fuel Station module
-
-🤝 المساهمة Contribution
-
-نرحّب بأي مساهمات:
-
-تطوير
-
-تحسين API
-
-Design
-
-توثيق
-
-© SDC – Shams Dubai Contracting
-
-تم بناء النظام بالكامل خصيصًا لمؤسسة شمس دبي للمقاولات
-لرفع كفاءة إدارة الأسطول وتقليل التكاليف التشغيلية بشكل احترافي.
+# 📝 License  
+MIT License — Free for commercial and personal use.
